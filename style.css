@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap&family=Dosis:wght@200");
+
+/* Clear the default browser styles */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+html {
+  text-align: center;
+}
+h2,
+h3 {
+  padding: 10px 0;
+  background-color: inherit;
+}
+
+p {
+  background-color: inherit;
+}
+
+input {
+  text-align: center;
+  background-color: inherit;
+  font-size: 5em;
+  font-weight: 700;
+  border-style: none;
+  font-family: "Dosis", sans-serif;
+  width: inherit;
+  letter-spacing: 0.1em;
+}
+
+/* remove input arrows */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* remove stle of input */
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+/* vertical axis setup */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.box-1 {
+  background: linear-gradient(
+    45deg,
+    rgba(238, 174, 174, 1) 0%,
+    rgba(233, 223, 148, 1) 100%
+  );
+  padding: 2em 0;
+  width: 550px;
+  height: 210px;
+
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
+
+.box-2 {
+  background-color: #fbf7ee;
+  width: 550px;
+  height: 290px;
+  font-weight: 300;
+  padding: 2em 0;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+span {
+  background: none;
+  color: white;
+}
+
+.style-span-1 {
+  font-weight: 100;
+}
+.style-span-2 {
+  font-style: italic;
+}
